@@ -51,7 +51,7 @@ public class BallTests
         //Act
         bool response = ball.ValidateQuestion(question);
         //Assert
-        Assert.IsTrue(response);
+        Assert.IsFalse(response);
     }
 
     [TestMethod]
