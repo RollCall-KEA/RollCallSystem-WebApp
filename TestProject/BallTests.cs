@@ -35,7 +35,7 @@ public class BallTests
     {
         //Arrange
         MagicBallService ball = new MagicBallService();
-        string question = "A question?";
+        string question = "A question";
         //Act
         bool response = ball.ValidateQuestion(question);
         //Assert
